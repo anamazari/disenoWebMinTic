@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Ingresa los datos de tu hoja de vida</h1>
+
+    <h2>Información personal</h2>
+
+    <form method="post" action="/send/">
+        <input type="text" name="nombre" placeholder="Ingrese su nombre completo"> <br>
+        <h4>Escoge tu tipo de documento</h4>
+        <input type="radio" name="documento" value="id"> documento identidad <br>
+        <input type="radio" name="documento" value="pasaporte"> pasaporte <br>
+        <input type="text" name="numeroDocumento" placeholder="Ingrese el número de su documento"> <br>
+        <h4>ingrese su fecha de nacimiento</h4>
+        <input type="date" name="fechaDeNacimiento" placeholder="Ingrese su fecha de nacimiento"> <br>
+        <h4>Datos de domicilio</h4>
+        <input type="text" name="municipio" placeholder="Ingrese el municipio de residencia"> <br>
+        <input type="text" name="barrio" placeholder="Ingrese el barrio de residencia"> <br>
+        <input type="text" name="dirección" placeholder="Ingrese el barrio de residencia"> <br>
+        <h4>Datos de contacto</h4>
+        <input type="tel" name="celular" placeholder="Ingrese su número de celular"> <br>
+        <input type="email" name="direccionCorreo" placeholder="Ingrese su correo electrónico"> <br>
+    </form>
+
+    <h2>Información laboral</h2>
+    <form method="post" action="/send/">
+        <h4>Datos empresa 1</h4>
+        <input type="text" name="empresa" placeholder="Ingrese el nombre de la empresa"> <br>
+        <input type="text" name="cargo" placeholder="Ingrese el cargo que ocupó en la empresa"> <br>
+        <h4>Fecha inicio</h4>
+        <input type="date" name="fechaDeInicio" placeholder="Ingrese su fecha de ingreso"> <br>
+        <h4>Fecha retiro</h4>
+        <input type="date" name="fechaDeRetiro" placeholder="Ingrese su fecha de retiro"> <br>
+        <textarea name="text" spellcheck="true" placeholder="Detalla las funciones del cargo" cols="32" rows="8" ></textarea> <br>
+        
+        <h4>Datos empresa 2</h4>
+        <input type="text" name="empresa" placeholder="Ingrese el nombre de la empresa"> <br>
+        <input type="text" name="cargo" placeholder="Ingrese el cargo que ocupó en la empresa"> <br>
+        <h4>Fecha inicio</h4>
+        <input type="date" name="fechaDeInicio" placeholder="Ingrese su fecha de ingreso"> <br>
+        <h4>Fecha retiro</h4>
+        <input type="date" name="fechaDeRetiro" placeholder="Ingrese su fecha de retiro"> <br>
+        <textarea name="text" spellcheck="true" placeholder="Detalla las funciones del cargo" cols="32" rows="8" ></textarea> <br>
+
+        <h4>Datos empresa 3</h4>
+        <input type="text" name="empresa" placeholder="Ingrese el nombre de la empresa"> <br>
+        <input type="text" name="cargo" placeholder="Ingrese el cargo que ocupó en la empresa"> <br>
+        <h4>Fecha inicio</h4>
+        <input type="date" name="fechaDeInicio" placeholder="Ingrese su fecha de ingreso"> <br>
+        <h4>Fecha retiro</h4>
+        <input type="date" name="fechaDeRetiro" placeholder="Ingrese su fecha de retiro"> <br>
+        <textarea name="text" spellcheck="true" placeholder="Detalla las funciones del cargo" cols="32" rows="8" ></textarea> <br>
+
+
+        <textarea name="text" spellcheck="true" placeholder="cuéntanos algo sobre ti" cols="32" rows="8" ></textarea> <br>
+    </form>
+
+    
+</body>
+</html>

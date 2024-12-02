@@ -1,0 +1,30 @@
+p {
+    color:dodgerblue; /*Color texto*/
+}
+
+.content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*Cambiar tipo fuente del texto*/
+    font-size: 25px; /*Cambiar el tamaño del texto*/
+    font-weight: bold; /*Agregar negrita al texto*/
+    background-color: darkslategrey; /*Color de fondo*/
+    
+    color:burlywood; /*Color de texto*/
+}
+
+.header {
+    background-color:lightgreen;
+}
+
+div {
+    display: grid;
+}
+
+.footer p{ 
+    color: lightsalmon;  
+}
+
+
+
